@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "esnext", "dom.iterable"],
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "app": ["app/*"],
+      "core": ["core/*"],
+      "components": ["components/*"],
+      "features": ["features/*"],
+      "services": ["services/*"],
+      "shared": ["shared/*"],
+      "pages": ["pages/*"]
+    },
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*", "styled.d.ts"]
+}
